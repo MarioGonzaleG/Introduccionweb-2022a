@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+
+    <script>
+        //Variables de tipo string
+
+        var textoA = "Comillas Dobles";
+        var textoB = 'Comillas Dobles';
+
+        var textoC = "Comillas 'Simples' denro de la comilla Dobles";
+        var textoD = 'Comillas "Doble" denro de la comilla Dobles';
+
+        console.log(textoA);
+        console.log(textoB);
+        console.log(textoC);
+        console.log(textoD);
+
+        //Operacion Aritmetica
+
+        var x = '3';
+        var y = '3.2';
+
+        document.write(x + y + " " + typeof(x+y) );
+        document.write(x = y + " " + typeof(x*y) );
+
+        // variables tipo nombre
+
+        var numberA, numberB;
+
+        var numberA = 10;
+        var numberB =3.7;
+
+        console.log(numberA + numberB);
+        console.log(numberA - numberB);
+        console.log(numberA * numberB);
+        console.log(numberA / numberB);
+        console.log(numberA % numberB);
+        
+        console.log(numberA++);
+        console.log(numberA);
+
+        console.log(++numberB);
+        console.log(numberB);
+
+        //TIPO BOLEAN
+
+        var verdadero =true;
+        var falso =false;
+
+        //tabla de verda and
+        console.log(verdadero && verdadero);
+        console.log(verdadero && falso);
+        console.log(falso && verdadero);
+        console.log(falso && falso);
+
+        //tabla de verdad "OR"
+        console.log(verdadero || verdadero);
+        console.log(verdadero || falso);
+        console.log(falso || verdadero);
+        console.log(falso || falso);
+
+        //IGUALDAD Y negacion
+        console.log(verdadero == falso);
+        console.log(verdadero != falso);
+    </script>
+</body>
+</html>

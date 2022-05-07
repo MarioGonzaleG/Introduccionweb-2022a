@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        #a{
+            background-color: brown;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <input id="original" type="text" onkeydown="duplicar()">
+    <input id="copia" type="text">
+
+    <div>
+
+        <div id="a" onmouseover="">
+            Doom
+        </div>
+
+    </div>
+    <script>
+
+        function duplicar(){
+            let original = document.getElementById("original").value;
+            document.getElementById("copia").value = original;
+        }
+
+    </script>
+</body>
+</html>

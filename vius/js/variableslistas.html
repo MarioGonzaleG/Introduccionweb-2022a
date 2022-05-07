@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos y Objetos</title>
+</head>
+<body>
+    <script>
+        var texto = 'Alejandro';
+        var miarreglo = ['naranja', 'pera', texto, 22, , 'barcelona', true];
+
+        console.log(miarreglo);
+        console.log(miarreglo[0]);
+        console.log(miarreglo[1]);
+        console.log(miarreglo[6]);
+
+        console.log(miarreglo.length); //tamaño del arreglo
+        console.log(miarreglo[miarreglo.length-1]);
+
+        var persona = {
+            nomnbre: "Mario",
+            apellido: "Gonzalez",
+            aficiones: ['HTML', 'CAMPO', 'TRABAJAR'],
+            inscrito: true
+        };
+        console.log(persona);
+        console.log(persona.nomnbre);
+        console.log(persona.apellido);
+        console.log(persona.aficiones);
+        console.log(persona.aficiones[2]);
+    </script>
+</body>
+</html>

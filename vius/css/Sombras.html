@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+    <style>
+        .a {
+            text-shadow: 2px 3px red;
+        }
+
+        .b {
+            text-shadow: 0 0 2px blue, 0 0 2px red;
+        }
+
+        #example {
+            border: 2px solid;
+            padding: 10px;
+            box-shadow: 5px 10px 8px greenyellow;
+        }
+
+        #example1 {
+            border: 2px solid;
+            padding: 10px;
+            box-shadow: 5px 10px 8px 10px rgb(88, 141, 9);
+        }
+
+        #example2 {
+            width: 500px;
+            border: 2px solid;
+            padding: 10px;
+            box-shadow: 5px 10px 5px rgb(43, 8, 238), 15px 25px 10px greenyellow, 20px 35px 15px red;
+        }
+
+        .card {
+            width: 300px;
+            border: 1px;
+            border-radius: 4px;
+            box-shadow: 3px 2px 2px 3px grey;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="a">Texto en Rojo</h1>
+    <h2 class="b">Texto difuminado</h2>
+
+    <p>box-sadow 5px </p>
+
+    <div id="example"> Algun Texto</div>
+    <br>
+    <div id="example1"> Cuarto Valor</div>
+    <br>
+    <div id="example2"> Cuarto concatenado de sombras</div>
+    <br>
+    <div class="card">
+        <h1>Encabezado de la Targeta</h1>
+        <p>Curpo</p>
+    </div>
+    
+</body>
+</html>

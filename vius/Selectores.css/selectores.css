@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    color: red;
+}
+
+#id1{
+    text-align: right;
+    color: blue;
+}
+
+.clase1{
+    color: blueviolet;
+    font-family: Verdana;
+}
+p.clase2{
+    text-align: justify;
+    font-size: 30px;
+    color: aqua;
+}
+h1, h2{
+    background-color: bisque;
+}

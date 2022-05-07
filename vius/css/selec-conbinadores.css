@@ -1,0 +1,14 @@
+div p{
+    background-color: yellowgreen;
+}
+
+div > P{
+    background-color: blueviolet;
+
+}
+div + p{
+    background-color: rgb(205, 50, 153);
+}
+div p{
+    background-color: brown;
+}

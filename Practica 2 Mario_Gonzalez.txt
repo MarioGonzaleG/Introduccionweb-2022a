@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Formulario Practica</h1>
+        <br>
+        
+        <label for="Nombe:">Nombre:</label>
+        <input type="text" style="width: 250px;" id="nombre" name="nombre" value="Mario">
+        <label for="Password">Password:</label>
+        <input type="text" style="width: 245px;" id="Password" name="Password" value="**********">
+        <br>
+        <br>
+        <label for="Address">Addres:</label><br>
+        <input type="text" style="width: 640px;" id="Address" name="Address" value="2 de Febrero #50 El Cabezon Ameca Jalisco">
+        <p>Address 2: <br><input type="text" style="width: 640px;" id="Adrres 2" name="Address 2" value="Guachinango 12 El Molino Tonala Jalisco"></p>
+        <label for="City">City:</label>
+        <input type="City" id="City" name="City" value="Tonala">
+        <label for="City">State:</label>
+        <input type="State" id="State" name="State" value="Jalisco">
+        <label for="Zip">Zip:</label>
+        <input type="Zip" id="Zip" name="Zip" value="45407">
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" name="casilla" checked>Check me out
+        <br>
+        <br>
+        <button type="Sign in">
+            Sign in
+          </button>
+    </form>
+</body>
+</html>

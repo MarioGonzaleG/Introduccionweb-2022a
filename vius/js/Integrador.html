@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumeIntegrador</title>
+</head>
+<body>
+    <script>
+        var numeros = [1, 10, 25, 50, 3];
+
+        //interando ciclo for
+
+        for (let index = 0; index < numeros.length; index++){
+            console.log(numeros[index]);
+        }
+
+        numeros.forEach(miintegrador);
+
+        function miintegrador(value, index, numeros){ //funcion comun declarada con nombre
+            console.log(value);
+            console.log(index);
+        }
+
+        numeros.forEach(function (value, index) { //FUNCIONES ANONIMAS
+            console.log("funcion anonima: " + value);
+        });
+
+        numeros.forEach((value, index) => {
+            console.log("funcion flecha: " + value); //funcion flecha
+        });
+
+        numeros.forEach(value => {
+            console.log("funcion flecha simplificado: " + value); //funcion flecha
+        });
+
+        var fruta;
+
+        console.log(fruta);
+        console.log(fruta.toStrng)
+    </script>
+</body>
+</html>

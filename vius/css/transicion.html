@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transiciones</title>
+    <style>
+        :root {
+            --tamanio: 100px;
+        }
+
+        div {
+            width: var(--tamanio);
+            height: 100px;
+            background-color: red;
+            transition: width 2s, background-color 2s;
+        }
+        div:hover {
+            width: 300px;
+            background-color: blue;
+        }
+        div#1{
+            transition-timing-function: ease;
+        }
+        div#2{
+            transition-timing-function: ease-in;
+        }
+        div#3{
+            transition-timing-function: ease-in-out;
+        }
+        div#4{
+            transition-timing-function: ease-out;
+        }
+        div#5{
+            transition-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+
+    <div id="1">Linear</div>
+    <div id="2">EASE</div>
+    <div id="3">EASE-IN</div>
+    <div id="4">EASE.OUT</div>
+    <div id="5">EASE.IM.OUT</div>
+
+</body>
+</html>
